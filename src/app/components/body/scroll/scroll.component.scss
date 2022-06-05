@@ -1,0 +1,30 @@
+section {
+      margin:0 auto;
+      overflow-y: hidden;
+      overflow-x: auto;
+      width: 90%;
+      height: 25vh;
+      white-space: nowrap;
+  
+    ul {
+      
+      
+      li {
+        @media (max-width: 600px) {
+          width:90%;
+      }
+        width: 30%;
+        display: inline-block;
+        img {
+          
+          width: 80%;
+          object-fit: cover;
+          border-radius: 10px;
+         
+          
+          
+        }
+      }
+    }
+  }
+  

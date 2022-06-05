@@ -1,0 +1,25 @@
+nav {
+  background-color: black;
+    height: 80px;
+ 
+  
+
+    ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  
+      a {
+        color: white;
+        margin-bottom: 10px;
+  
+        &:hover {
+          
+          background-color:#8a0027;
+          color:white;
+          
+        }
+      }
+    }
+  }
+  
