@@ -10,6 +10,10 @@ export class NavegadorComponent implements OnInit {
   public Home: string = "Home"
   public Gallery:string = "Gallery"
   public About: string = "About"
+ 
+
+
+  
 
   constructor() { 
     

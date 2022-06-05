@@ -1,17 +1,27 @@
 nav {
   background-color: black;
-    height: 80px;
- 
+  display: flex;
+  height: 20vh;
+  justify-content: space-around;
+  align-items: center;
   
 
     ul {
       display: flex;
       justify-content: space-around;
       align-items: center;
+
+      button{
+        
+        background: none;
+      }
   
       a {
+        font-size: 2rem;
+        text-transform: uppercase;
+        transition: all 0.5s ease-in-out;
         color: white;
-        margin-bottom: 10px;
+        padding: 10px;
   
         &:hover {
           
@@ -22,4 +32,3 @@ nav {
       }
     }
   }
-  
